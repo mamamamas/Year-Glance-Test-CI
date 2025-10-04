@@ -1,0 +1,210 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Mark\\OneDrive\\Desktop\\Playwright_ts\\playwright.config.ts",
+    "rootDir": "C:/Users/Mark/OneDrive/Desktop/Playwright_ts/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ],
+      [
+        "github",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/Mark/OneDrive/Desktop/Playwright_ts/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "setup",
+        "name": "setup",
+        "testDir": "C:/Users/Mark/OneDrive/Desktop/Playwright_ts/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.setup\\.ts/"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/Mark/OneDrive/Desktop/Playwright_ts/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "behind-login",
+        "name": "behind-login",
+        "testDir": "C:/Users/Mark/OneDrive/Desktop/Playwright_ts/tests",
+        "testIgnore": [
+          "**/RegisterPageTest.spec.ts",
+          "**/GoogleLogin.spec.ts",
+          "**/InvalidLogin.spec.ts"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/Mark/OneDrive/Desktop/Playwright_ts/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "public",
+        "name": "public",
+        "testDir": "C:/Users/Mark/OneDrive/Desktop/Playwright_ts/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/RegisterPageTest.spec.ts",
+          "**/GoogleLogin.spec.ts",
+          "**/InvalidLogin.spec.ts"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "login.setup.ts",
+      "file": "login.setup.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Write login session data",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "setup",
+              "projectName": "setup",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 19175,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "First password failed, retrying with backup...\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-04T11:32:19.477Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "deed6908e1ee4c16d23d-5c1432ad15ab034cac4b",
+          "file": "login.setup.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "SwitchingCalendarView.spec.ts",
+      "file": "SwitchingCalendarView.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Switch between Horizontal and Vertical views",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 29880,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-04T11:32:43.754Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f791e1d3a3aa1a957a7-cfed5371fa5e85d143f4",
+          "file": "SwitchingCalendarView.spec.ts",
+          "line": 7,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-10-04T11:32:16.415Z",
+    "duration": 58962.317,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

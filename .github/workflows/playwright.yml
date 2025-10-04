@@ -1,0 +1,123 @@
+name: YG Playwright CI
+on:
+  push:
+    branches:
+      - "**"
+  pull_request:
+    branches:
+      - "**"
+
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - name: Cache NPM modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      # 🔹 Run tests with JSON reporter
+      - name: Run Playwright tests
+        run: npx playwright test || true
+        continue-on-error: true
+
+      # - name: Copy HTML report
+      #   run: cp playwright-report/index.html playwright-report.html
+
+      - name: Check workspace contents
+        run: ls -la
+
+      # 🔹 Parse test summary + test titles
+      - name: Parse test summary from stats
+        id: summary
+        run: |
+          # ✅ Get summary from .stats
+          passed=$(jq '.stats.expected' results.json)
+          failed=$(jq '.stats.unexpected' results.json)
+          skipped=$(jq '.stats.skipped' results.json)
+          flaky=$(jq '.stats.flaky' results.json)
+
+          echo "✅ Passed: $passed"
+          echo "❌ Failed: $failed"
+          echo "⚠️ Skipped: $skipped"
+          echo "🔁 Flaky: $flaky"
+
+          # Export counts to GitHub Actions environment
+          {
+            echo "PASSED=$passed"
+            echo "FAILED=$failed"
+            echo "SKIPPED=$skipped"
+            echo "FLAKY=$flaky"
+          } >> $GITHUB_ENV
+
+      # 🔹 Upload report (optional – for debugging if needed)
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days:
+            30
+
+            # 🔹 Send Slack notification
+
+      # 🔹 Send summary email
+      - name: Send summary email
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.GOOGLE_EMAIL }}
+          password: ${{ secrets.GOOGLE_PASSWORD }}
+          subject: "Test Results for ${{ github.repository }}"
+          to: markchristiandurana75@gmail.com
+          from: Playwright CI <mcdurana@jlabs.team>
+          body: |
+            ✅ Playwright test run completed for repository **${{ github.event.repository.name }}**
+
+            📊 Test Summary:
+            -------------------------------------------------------------------
+            ✅ Passed: ${{ env.PASSED }}
+            ❌ Failed: ${{ env.FAILED }}
+            ⚠️ Skipped: ${{ env.SKIPPED }}
+            🔁 Flaky: ${{ env.FLAKY }}
+            -------------------------------------------------------------------
+
+            📎 For more details, please see the attached **Playwright HTML report**.
+
+            📑 How to open the Playwright HTML report:
+              1. Download the attached file: `index.html`
+              2. Open `index.html` in your browser (Chrome, Edge, Firefox, or Safari)
+
+            🕵️ How to view Playwright trace files:
+              1. Go to: **workflow artifacts** for this run:
+                ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+              2. Download the `playwright-report` artifact
+              3. Inside, look for `test-results/trace-<hash>.zip`
+              4. Open https://trace.playwright.dev
+              5. Drag and drop a trace file into the viewer
+
+            🔗 Workflow Run:
+            ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            ✉️ This email was sent automatically by GitHub Actions.
+
+          attachments: playwright-report/index.html
