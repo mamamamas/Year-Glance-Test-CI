@@ -124,16 +124,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 19175,
+                  "duration": 15099,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "First password failed, retrying with backup...\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-04T11:32:19.477Z",
+                  "startTime": "2025-10-06T02:27:33.165Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -144,6 +140,1478 @@
           "id": "deed6908e1ee4c16d23d-5c1432ad15ab034cac4b",
           "file": "login.setup.ts",
           "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Account Settings\\ChangeLog.spec.ts",
+      "file": "Account Settings/ChangeLog.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ChangeLog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20044,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:28:12.594Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bcbf12b2a938c5b1ebeb-c7cbf3e09864ea07597f",
+          "file": "Account Settings/ChangeLog.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Account Settings\\FeatureRequest.spec.ts",
+      "file": "Account Settings/FeatureRequest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Feature Request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14418,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:28:32.932Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7d9c969e947cb2ea4d45-87f25aad34edcf6d7c1b",
+          "file": "Account Settings/FeatureRequest.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Account Settings\\HelpCenter.spec.ts",
+      "file": "Account Settings/HelpCenter.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14812,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:28:47.431Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f5142af94191e06dc0eb-55afb826b07c8f0f0c9c",
+          "file": "Account Settings/HelpCenter.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Account Settings\\Profile.spec.ts",
+      "file": "Account Settings/Profile.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Profile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16926,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:29:02.338Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1514e28a45575074bdea-1b218cf4892dc1304f1d",
+          "file": "Account Settings/Profile.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "Change Password",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14284,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:29:19.305Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1514e28a45575074bdea-632c078c279f4b4bad67",
+          "file": "Account Settings/Profile.spec.ts",
+          "line": 31,
+          "column": 1
+        },
+        {
+          "title": "Plans",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 18363,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:29:33.629Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1514e28a45575074bdea-c921af4aa5fd39e8dd01",
+          "file": "Account Settings/Profile.spec.ts",
+          "line": 76,
+          "column": 1
+        },
+        {
+          "title": "Bill",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16537,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:29:52.050Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1514e28a45575074bdea-ccecc60704c3fba06b69",
+          "file": "Account Settings/Profile.spec.ts",
+          "line": 88,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "EventLifecycle.spec.ts",
+      "file": "EventLifecycle.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Edit MultiDay event",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 43344,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:31:06.929Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "99ac1aae71d7c113d4a3-9709b0c9a530162e6ccd",
+          "file": "EventLifecycle.spec.ts",
+          "line": 69,
+          "column": 5
+        },
+        {
+          "title": "Validate MultiDays event",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 30639,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:31:50.340Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "99ac1aae71d7c113d4a3-643135f2eb9245ee8d47",
+          "file": "EventLifecycle.spec.ts",
+          "line": 93,
+          "column": 5
+        },
+        {
+          "title": "Delete MultiDay Events",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 28830,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:32:21.068Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "99ac1aae71d7c113d4a3-c1b730b396b009d40dbb",
+          "file": "EventLifecycle.spec.ts",
+          "line": 119,
+          "column": 5
+        }
+      ],
+      "suites": [
+        {
+          "title": "Create/Edit/Delete MultiDay Events",
+          "file": "EventLifecycle.spec.ts",
+          "line": 30,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Add MULTI DAY event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 27610,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:30:08.661Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-3a976be84794bf1a7e3a",
+              "file": "EventLifecycle.spec.ts",
+              "line": 31,
+              "column": 5
+            },
+            {
+              "title": "Validate MultiDay event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 30551,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:30:36.323Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-9a1a8e5922506a8b7d27",
+              "file": "EventLifecycle.spec.ts",
+              "line": 51,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Create/Edit/Delete AllDay Events",
+          "file": "EventLifecycle.spec.ts",
+          "line": 146,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Add ALL DAY event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 30020,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:32:49.966Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-c8e0ce69c01672b74a46",
+              "file": "EventLifecycle.spec.ts",
+              "line": 147,
+              "column": 5
+            },
+            {
+              "title": "Validate AllDay event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 24182,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:33:20.041Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-ecfbde7921b83dcfa9de",
+              "file": "EventLifecycle.spec.ts",
+              "line": 162,
+              "column": 5
+            },
+            {
+              "title": "Edit AllDay event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 38358,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:33:44.284Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-d950e2d7f84188a62ae1",
+              "file": "EventLifecycle.spec.ts",
+              "line": 183,
+              "column": 5
+            },
+            {
+              "title": "Validate Edited AllDays event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 24779,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:34:22.695Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-ea3dbb7ac08643335eb2",
+              "file": "EventLifecycle.spec.ts",
+              "line": 206,
+              "column": 5
+            },
+            {
+              "title": "Delete All Day Event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 28458,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:34:47.520Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-0452b472c8d7f19aaeb7",
+              "file": "EventLifecycle.spec.ts",
+              "line": 229,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Create Recurring Events",
+          "file": "EventLifecycle.spec.ts",
+          "line": 258,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Add Daily Event and validate event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 26736,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:35:16.031Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-47037217c76367d8396f",
+              "file": "EventLifecycle.spec.ts",
+              "line": 262,
+              "column": 9
+            },
+            {
+              "title": "Add Weekly Event and validate event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 27391,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:35:42.810Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-1e152d1c658186b14585",
+              "file": "EventLifecycle.spec.ts",
+              "line": 262,
+              "column": 9
+            },
+            {
+              "title": "Add Monthly Event and validate event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 28325,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:36:10.245Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-4d97d4f1325493364947",
+              "file": "EventLifecycle.spec.ts",
+              "line": 262,
+              "column": 9
+            },
+            {
+              "title": "Add Annually Event and validate event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 27661,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:36:38.612Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-2362429bf1a6da94e574",
+              "file": "EventLifecycle.spec.ts",
+              "line": 262,
+              "column": 9
+            },
+            {
+              "title": "Edit Daily Event and validate event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 37525,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [
+                        {
+                          "text": "Attempt 1 failed to open event details. Retrying...\n"
+                        }
+                      ],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:37:06.322Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-67166b3a9620c3fde876",
+              "file": "EventLifecycle.spec.ts",
+              "line": 281,
+              "column": 9
+            },
+            {
+              "title": "Edit Weekly Event and validate event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 37527,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:37:43.894Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-fb14c5e7dc3a217c8857",
+              "file": "EventLifecycle.spec.ts",
+              "line": 281,
+              "column": 9
+            },
+            {
+              "title": "Edit Monthly Event and validate event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 39406,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [
+                        {
+                          "text": "Attempt 1 failed to open event details. Retrying...\n"
+                        }
+                      ],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:38:21.474Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-b6242f7c6cc02e408b6b",
+              "file": "EventLifecycle.spec.ts",
+              "line": 281,
+              "column": 9
+            },
+            {
+              "title": "Edit Annually Event and validate event",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 36910,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:39:00.924Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-4fab091e342de564e921",
+              "file": "EventLifecycle.spec.ts",
+              "line": 281,
+              "column": 9
+            },
+            {
+              "title": "Delete Daily",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 28957,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:39:37.883Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-a2f6df4953a7efdac34f",
+              "file": "EventLifecycle.spec.ts",
+              "line": 303,
+              "column": 5
+            },
+            {
+              "title": "Delete Weekly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 26842,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:40:06.885Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-fab048fc45b7efd8fb1b",
+              "file": "EventLifecycle.spec.ts",
+              "line": 324,
+              "column": 5
+            },
+            {
+              "title": "Delete Monthly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 27046,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:40:33.785Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-5d5be1744a34c23070bb",
+              "file": "EventLifecycle.spec.ts",
+              "line": 345,
+              "column": 5
+            },
+            {
+              "title": "Delete Annually",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "behind-login",
+                  "projectName": "behind-login",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 25424,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Setting up baseUrl...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-06T02:41:00.876Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99ac1aae71d7c113d4a3-20bd94650c1a8d036da6",
+              "file": "EventLifecycle.spec.ts",
+              "line": 366,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Notification.spec.ts",
+      "file": "Notification.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Notification",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 27238,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:41:26.465Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5b14f527e26d11c6d76a-98a0d8659d29e758189f",
+          "file": "Notification.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Print.spec.ts",
+      "file": "Print.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Print",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13148,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:41:53.768Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "923c88f8c9de1d508191-87a8cabcb0cd2a380999",
+          "file": "Print.spec.ts",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "Print about",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12010,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:42:06.959Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "923c88f8c9de1d508191-777cf78d0c844e0fa936",
+          "file": "Print.spec.ts",
+          "line": 28,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "ShareCalendar.spec.ts",
+      "file": "ShareCalendar.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Share Calendar",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 34766,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:42:19.050Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4396daaed0808bacc634-5bbafa6ec55d07250580",
+          "file": "ShareCalendar.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "SwitchingCalendar.spec.ts",
+      "file": "SwitchingCalendar.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Switching Calendar",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 30667,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:42:53.907Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bdb52d298f23de0d408e-ffbdb1d57faf5fb6fe87",
+          "file": "SwitchingCalendar.spec.ts",
+          "line": 5,
           "column": 1
         }
       ]
@@ -167,10 +1635,10 @@
               "projectName": "behind-login",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 29880,
+                  "duration": 27009,
                   "errors": [],
                   "stdout": [
                     {
@@ -182,7 +1650,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-04T11:32:43.754Z",
+                  "startTime": "2025-10-06T02:43:24.644Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -196,13 +1664,152 @@
           "column": 1
         }
       ]
+    },
+    {
+      "title": "SwitchingViews.spec.ts",
+      "file": "SwitchingViews.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Switch views",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "behind-login",
+              "projectName": "behind-login",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14972,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:43:51.726Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b40dbeae249f26b643d-0c16ca68c585318e0bb6",
+          "file": "SwitchingViews.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "InvalidLogin.spec.ts",
+      "file": "InvalidLogin.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Incorrect Email or Password",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "public",
+              "projectName": "public",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10896,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:27:51.881Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b64fe72652ee5c4991ea-5e4ac26c3fc04f4b57f4",
+          "file": "InvalidLogin.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "Empty Text Field",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "public",
+              "projectName": "public",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7264,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Setting up baseUrl...\n"
+                    },
+                    {
+                      "text": "Test finished\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-06T02:28:03.104Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b64fe72652ee5c4991ea-29dcebcc12cd5b9c1f3f",
+          "file": "InvalidLogin.spec.ts",
+          "line": 20,
+          "column": 1
+        }
+      ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-04T11:32:16.415Z",
-    "duration": 58962.317,
-    "expected": 2,
+    "startTime": "2025-10-06T02:27:28.661Z",
+    "duration": 998641.9090000001,
+    "expected": 39,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

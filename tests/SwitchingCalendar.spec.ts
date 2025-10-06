@@ -44,4 +44,5 @@ test('Switching Calendar', async ({ page, baseUrl }) => {
   await toggleCalendar(calendars.holidays, 'uncheck');
   await toggleCalendar(calendars.personal, 'check');
   await toggleCalendar(calendars.work, 'check');
+  await toggleCalendar(calendars.personal, 'uncheck');
 });

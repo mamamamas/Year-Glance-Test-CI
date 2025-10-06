@@ -352,24 +352,55 @@ export async function addReccurringEvent(page: Page, data: EventData): Promise<v
 
 }
 
-export async function EditReccurringEvent(page : Page, data: ValidateEventData): Promise<void> {
+export async function EditReccurringEvent(page: Page, data: ValidateEventData): Promise<void> {
     const { eventName, newName, startDate, endDate, allDay, description } = data;
-    const calendarEvent = page.locator('#E-20251004'); // <-- adjust locator if eventId changes
+    const calendarEvent = page.locator('[aria-label="E-20251004"]'); 
+
+    // Wait for the calendar event to be visible
     await expect(calendarEvent).toBeVisible({ timeout: 10000 });
-    await calendarEvent.click();
-    await page.waitForTimeout(5000);
-    // Open event details
-    await page.getByRole('button', { name: `${eventName} Oct 4 - 5, All` }).first().click();
-    await page.waitForTimeout(2000);
+
+    // Retry logic starts here
+    const maxRetries = 3;
+    let attempt = 0;
+    let success = false;
+
+    while (attempt < maxRetries && !success) {
+        try {
+            // Click the calendar event
+            await calendarEvent.click();
+            await page.waitForTimeout(2000); // Slight wait to allow UI to respond
+
+            // Try clicking the event details button
+            const detailsButton = page.getByRole('button', {
+                name: `${eventName} Oct 4 - 5, All`,
+            }).first();
+
+            await detailsButton.waitFor({ timeout: 2000 }); // Wait for it to appear
+            await detailsButton.click();
+
+            // Success!
+            success = true;
+        } catch (error) {
+            attempt++;
+            console.warn(`Attempt ${attempt} failed to open event details. Retrying...`);
+            if (attempt >= maxRetries) {
+                throw new Error(`Failed to open event details for "${eventName}" after ${maxRetries} attempts.`);
+            }
+            await page.waitForTimeout(1000); // Wait before retrying
+        }
+    }
+
+    await page.waitForTimeout(3000);
 
     // Edit event name
     await page.locator('#view-event-modal').getByRole('button').filter({ hasText: 'Loading...' }).first().click();
+    await page.waitForTimeout(3000);
     await page.getByRole('textbox', { name: 'Name' }).fill('');
     await page.getByRole('textbox', { name: 'Name' }).fill(newName);
 
     // All Day
     if (allDay) {
-        await page.getByLabel("All Day").check()
+        await page.getByLabel("All Day").check();
     }
 
     // Start Date
@@ -386,7 +417,7 @@ export async function EditReccurringEvent(page : Page, data: ValidateEventData):
     // Update Event
     await page.getByRole('button', { name: 'Update Event' }).click();
     await page.waitForTimeout(800);
+
     // Assert success
     await expect(page.getByText('Event updated successfully')).toBeVisible();
-    await page.waitForTimeout(800);
 }
